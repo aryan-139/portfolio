@@ -21,10 +21,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import deepsight from "./deepsight.jpeg";
+import zipy from "./zipy.jpeg";
+import prowess from "./prowess.jpeg";
 import tesla from "./company/tesla.png";
+import bit from "./bit.png";
 
 import wealthbridge from "./wealthbridge.png";
 import library from "./library.png";
@@ -52,11 +53,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   wealthbridge,
   library,
   bytebit,
+  deepsight,
+  zipy,
+  prowess,
+  bit,
 };

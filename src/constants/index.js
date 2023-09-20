@@ -15,13 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    deepsight,
+    zipy,
+    prowess,
     wealthbridge,
     library,
     bytebit,
+    bit,
   } from "../assets";
   
   export const navLinks = [
@@ -117,7 +117,7 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "Deepsight AI Labs",
-      icon: starbucks,
+      icon: deepsight,
       iconBg: "#383E56",
       date: "July 2023 - August 2023",
       points: [
@@ -130,7 +130,7 @@ import {
     {
       title: "Technical Content Engineer Intern",
       company_name: "Zipy.ai",
-      icon: tesla,
+      icon: zipy,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Apr 2023",
       points: [
@@ -142,7 +142,7 @@ import {
     {
       title: "Software Development Engineer Intern",
       company_name: "Prowess",
-      icon: shopify,
+      icon: prowess,
       iconBg: "#383E56",
       date: "July 2022 - Aug 2022",
       points: [
@@ -154,7 +154,7 @@ import {
     {
       title: "MS. Mathematics and Computing",
       company_name: "Birla Institute of Technology",
-      icon: meta,
+      icon: bit,
       iconBg: "#E6DEDD",
       date: "May 2019 - Present",
       points: [
