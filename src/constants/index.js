@@ -19,10 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    wealthbridge,
+    library,
+    bytebit,
   } from "../assets";
   
   export const navLinks = [
@@ -45,10 +44,10 @@ import {
       title: "Web Developer",
       icon: web,
     },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
+    // {
+    //   title: "React Native Developer",
+    //   icon: mobile,
+    // },
     {
       title: "Backend Developer",
       icon: backend,
@@ -96,75 +95,71 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Software Engineer Intern",
+      company_name: "Deepsight AI Labs",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       "Proposed the architecture, and implemented an end-to-end project of a sophisticated Visitor Management Solution with Facial Recognition based check-in, and checkout system.",
+       "This impacted the organisation to have 34% faster registrations and reduced manual errors by 70%, benchmarked against the previous system.",
+       "Designed and executed the entire frontend of the Administrative Dashboard, strategically incorporating Key Performance Indicators (KPIs) for data-driven insights and actionable decision-making.",
+       "Proficiently diagnosed and fixed bugs and critical memory leaks in the existing software at priority, significantly boosting performance by 800% ",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Technical Content Engineer Intern",
+      company_name: "Zipy.ai",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2023 - Apr 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on the technical documentation for the software , including API reference and troubleshooting guides.",
+        "Wrote and published 9 technical articles on the company blog, which had over 30,000 hits.",
+        "Skills and Tools used: React, JavaScript, Node.js, Express.js, Javascript Frameworks, Error-Monitoring",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Software Development Engineer Intern",
+      company_name: "Prowess",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2022 - Aug 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built a Resume Parser System in the profile-building section, which dynamically auto-populates the fields after parsing the media through the JSON response from the API.",
+        "Integrated a Stripe payment gateway to the platform for users wanting to upgrade their plan, and for employers.",
+        "Worked with a fully remote team which were spread out in different time zones.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "MS. Mathematics and Computing",
+      company_name: "Birla Institute of Technology",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "May 2019 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       "President, Rotaract Club of BIT Mesra- Spearheaded a team of 170 members for the institute's socio-cultural chapter, Rotaract Club." ,
+       "Editor-in-Chief, News and Publications Society- Took interviews of imminent personalities, and wrote multiple editorials and articles to college newspaper. Interfaced with the college administration and the media houses to get the newspaper published." 
       ],
     },
   ];
@@ -172,54 +167,38 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Aryan is a web-wizard who transformed our vision into reality at unbelievable pace.",
+      name: "Himanshu Singh",
+      designation: "Founder and CEO",
+      company: "Prowess",
+      image: "https://media.licdn.com/dms/image/C5603AQEIsGpGhaBPKQ/profile-displayphoto-shrink_800_800/0/1523463774017?e=1700697600&v=beta&t=FQMN64FYM7WQE-e0qbDKzWE_Tvlu3k2iImFHVxa3KM4",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their clients' success like Aryan does.",
+      name: "Nishant Veer",
+      designation: "CEO and CTO",
+      company: "Deepsight AI Labs",
+      image: "https://media.licdn.com/dms/image/D4D35AQFSWrHFencXNQ/profile-framedphoto-shrink_800_800/0/1695135926732?e=1695848400&v=beta&t=1Y-AfjyaPJtRPHIOSJivYxMFaio743X869IKNjMLUr4",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Aryan, has an extremely strong work ethic and his contributions to our tech blogs totally exceeded our expectations.",
+      name: "Karthik MSN",
+      designation: "Co-Founder",
+      company: "Zipy.ai",
+      image: "https://media.licdn.com/dms/image/C5603AQEeariJQTP6OA/profile-displayphoto-shrink_800_800/0/1631616475799?e=1700697600&v=beta&t=ycyibwoOMG8TwygV_N8fvNiXbnT2_ZJiVuQUTJctNOE",
     },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    }
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Wealthbridge",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a full-stack finance dashboard with Machine Learning predictions and forecasting abilities using the MERN stack (MongoDB, Express, React, Node). Developed the backend using Node.js and Express.js as the framework, and used MongoDB to store all the        financial and user-specific data.",
       tags: [
         {
-          name: "react",
+          name: "typescript",
           color: "blue-text-gradient",
         },
         {
@@ -227,75 +206,66 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "material ui",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: wealthbridge,
+      source_code_link: "https://github.com/aryan-139/wealthbridge",
     },
     {
-      name: "Job IT",
+      name: "LibraryPlus",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "LibraryPlus is a Library Management System, which aims to fix the efficiency and organization issues faced by libraries. It is an admin based web application, which allows the admin to manage the library, and the users to access the library. One can issue books, return books, search for books, and view the library catalog.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "FastAPI",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Material UI",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: library,
+      source_code_link: "https://github.com/aryan-139/Libraryplus",
     },
     {
-      name: "Trip Guide",
+      name: "ByteBit",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The Huffman Coding Compression System is a software tool that utilizes the Huffman coding algorithm to compress and decompress files. Huffman coding is a popular lossless data compression algorithm that assigns variable-length codes to different characters based on their frequencies in the input file.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "express",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "material ui",
           color: "pink-text-gradient",
         },
+        {
+          name: "multer",
+          color: "blue-text-gradient",
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: bytebit,
+      source_code_link: "https://github.com/aryan-139/bytebit",
     },
   ];
   

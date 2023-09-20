@@ -47,14 +47,26 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+        If you've found your way to this page, you're probably trying to get to know more about me. 
+        First things first: <code>tabs&gt;&gt;&gt;spaces.</code>
+        <br />
+        <br />
+        I'm a tech enthusiast; broadly interested in full-stack web development. I am currently hooked to
+        machine learning. I read engineering blogs on system design in my spare time (that is not an expression).
+        I characterize myself as a geek-strovert (yep, I coined the term). 
+        <br />
+        <br />
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+        I love conversations about technology, businesses, and startups. I'm into fitness, and I re-watch "Suits" every month. 
+        Judge me all you want, but I loved the Indian version of "The Office". 
+         </motion.p>
+      
+      <motion.div variants={textVariant()} className='mt-8'>
+        <h7>Support me by buying me dinner.</h7>
+      </motion.div>
+
+
+      <div className='mt-10 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

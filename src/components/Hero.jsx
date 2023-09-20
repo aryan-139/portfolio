@@ -2,6 +2,12 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { fadeIn } from "../utils/motion";
+
+const scaleAnimation = {
+  initial: { scale: 0.9, opacity: 0 },
+  animate: { scale: 1, opacity: 1, transition: { duration: 0.3 } },
+};
 
 const Hero = () => {
   return (
@@ -15,15 +21,20 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I am <span className='text-[#915EFF]'>Aryan!</span>
+          <motion.div variants={scaleAnimation} initial="initial" animate="animate">
+          <h1 className={`${styles.heroHeadText} text-white`} style={{fontFamily: 'sans-serif'}}>
+            Hi, I'm <span className='text-[#aa8cf5]'>Aryan</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a final year mathematics and computing MS student @Birla Institute of Technology. Having diverse full stack development experiences under my belt, I aspire to build reliable software.<br className='sm:block hidden' />
-            <br/>
-            Thanks for visiting my page and feel free to reach out anytime!  
-            <br/>
-          </p>
+          </motion.div>
+          
+          <motion.h3 variants={scaleAnimation} initial="initial" animate="animate" className={`${styles.heroEmailText} text-white`}>
+    aryanraj2k25@gmail.com
+  </motion.h3>
+  <motion.p variants={scaleAnimation} initial="initial" animate="animate" className={`${styles.heroSubText} mt-2 text-white-100`}>
+    I'm a final-year student doing MS in <u>Mathematics and Computing</u>
+    <br />@Birla Institute of Technology. I'm a <i>full-stack developer</i> and I love to build
+    <br />reliable software that solves real-world problems! 
+  </motion.p>
         </div>
       </div>
 
