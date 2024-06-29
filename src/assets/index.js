@@ -31,6 +31,9 @@ import wealthbridge from "./wealthbridge.png";
 import library from "./library.png";
 import bytebit from "./bytebit.png";
 import futuresfirst from "./futuresfirst.png";
+import himanshu from "./himanshu.jpeg";
+import nishant from "./nishant.jpeg";
+import karthik from "./karthik.png";
 
 export {
   logo,
@@ -62,4 +65,7 @@ export {
   prowess,
   bit,
   futuresfirst,
+  nishant,
+  karthik,
+  himanshu,
 };

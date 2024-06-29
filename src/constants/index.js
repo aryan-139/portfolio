@@ -23,6 +23,9 @@ import {
     bytebit,
     bit,
     futuresfirst,
+    himanshu,
+    nishant,
+    karthik
   } from "../assets";
 
   export const navLinks = [
@@ -180,7 +183,7 @@ import {
       name: "Himanshu Singh",
       designation: "Founder and CEO",
       company: "Prowess",
-      image: "https://media.licdn.com/dms/image/C5603AQEIsGpGhaBPKQ/profile-displayphoto-shrink_800_800/0/1523463774017?e=1700697600&v=beta&t=FQMN64FYM7WQE-e0qbDKzWE_Tvlu3k2iImFHVxa3KM4",
+      image: himanshu, 
     },
     {
       testimonial:
@@ -188,16 +191,16 @@ import {
       name: "Nishant Veer",
       designation: "CEO and CTO",
       company: "Deepsight AI Labs",
-      image: "https://media.licdn.com/dms/image/D4D35AQFSWrHFencXNQ/profile-framedphoto-shrink_800_800/0/1695135926732?e=1695848400&v=beta&t=1Y-AfjyaPJtRPHIOSJivYxMFaio743X869IKNjMLUr4",
-    },
+      image: nishant,
+        },
     {
       testimonial:
         "Aryan, has an extremely strong work ethic and his contributions to our tech blogs totally exceeded our expectations.",
       name: "Karthik MSN",
       designation: "Co-Founder",
       company: "Zipy.ai",
-      image: "https://media.licdn.com/dms/image/C5603AQEeariJQTP6OA/profile-displayphoto-shrink_800_800/0/1631616475799?e=1700697600&v=beta&t=ycyibwoOMG8TwygV_N8fvNiXbnT2_ZJiVuQUTJctNOE",
-    },
+      image: karthik,
+     },
   ];
   
   const projects = [
