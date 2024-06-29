@@ -22,8 +22,9 @@ import {
     library,
     bytebit,
     bit,
+    futuresfirst,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -51,11 +52,7 @@ import {
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
   ];
   
   const technologies = [
@@ -115,7 +112,19 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer Intern",
+      title: "Quant Market Analyst Intern",
+      company_name: "Futures First",
+      icon: futuresfirst,
+      iconBg: "#383E56",
+      date: "January 2024 - June 2024",
+      points: [
+        "Developed strategies and tools which enabled trading the US 2-5-10 Year Treasuries, Fed Fund, SOFR Futures using various techniques involving Scalping, Spreads, Butterflies and Condors inorder to manage risk and hedge positions.",
+"Dealt with dynamic market data and created financial models to lock trades under varied scenarios.",
+"Executed trades backed by forward curve analysis, hitting impact, and open-interest analysis of US STIRs futures."
+      ],
+    },
+    {
+      title: "Computer Vision Software Engineer Intern",
       company_name: "Deepsight AI Labs",
       icon: deepsight,
       iconBg: "#383E56",
