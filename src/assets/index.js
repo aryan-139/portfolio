@@ -30,6 +30,7 @@ import bit from "./bit.png";
 import wealthbridge from "./wealthbridge.png";
 import library from "./library.png";
 import bytebit from "./bytebit.png";
+import futuresfirst from "./futuresfirst.png";
 
 export {
   logo,
@@ -60,4 +61,5 @@ export {
   zipy,
   prowess,
   bit,
+  futuresfirst,
 };
