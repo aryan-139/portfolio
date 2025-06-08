@@ -31,10 +31,16 @@ const Hero = () => {
     aryanraj2k25@gmail.com
   </motion.h3>
   <motion.p variants={scaleAnimation} initial="initial" animate="animate" className={`${styles.heroSubText} mt-2 text-white-100`}>
-    I'm a final-year student doing MS in <u>Mathematics and Computing</u>
-    <br />@Birla Institute of Technology. I'm a <i>full-stack developer</i> and I love to build
-    <br />reliable software that solves real-world problems! 
-  </motion.p>
+  I'm a Software Development Engineer at <u>Educational Initiatives</u>, where I build scalable platforms that power better learning outcomes.
+  <br />
+  With an MS in <u>Mathematics and Computing</u> from Birla Institute of Technology, I'm passionate about merging analytical thinking with practical tech.
+  <br />
+  <br>
+  </br>
+  
+  As a <i>full-stack developer</i>, I love tinkering with technology, reading research papers to find architectural design inspirations and use them to develop highly efficient software. 
+</motion.p>
+
         </div>
       </div>
 

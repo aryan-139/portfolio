@@ -34,6 +34,7 @@ import futuresfirst from "./futuresfirst.png";
 import himanshu from "./himanshu.jpeg";
 import nishant from "./nishant.jpeg";
 import karthik from "./karthik.png";
+import educationalinitiatives from "./company/educationalinitiatives.png";
 
 export {
   logo,
@@ -68,4 +69,5 @@ export {
   nishant,
   karthik,
   himanshu,
+  educationalinitiatives
 };
