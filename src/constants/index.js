@@ -55,7 +55,11 @@ import {
     {
       title: "Backend Developer",
       icon: backend,
-    }
+    },
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -107,10 +111,21 @@ import {
     //   name: "figma",
     //   icon: figma,
     // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+    {
+      name: "docker",
+      icon: docker,
+    },
+    {
+      name: "FastAPI",
+      icon: "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png",
+    },
+    {
+      name: "postgresql",
+      icon: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",},
+      {
+        name: "AWS",
+        icon: "https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg",
+      }
   ];
   
   const experiences = [
